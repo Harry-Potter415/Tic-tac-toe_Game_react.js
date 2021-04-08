@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 class Square extends React.Component {
   render() {
     return (
-      <button className="square">
+      <button className="square" onclick={function(){alert("click")}}>
         {this.props.value}
       </button>
     );
